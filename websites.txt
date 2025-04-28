@@ -1,0 +1,7 @@
+
+https://pcpartpicker.com/
+https://reintech.io/blog/setting-up-ftp-server-vsftpd-fedora-38
+https://www.atlantic.net/dedicated-server-hosting/how-to-install-apache-web-server-on-fedora/
+
+github
+https://github.com/Dominik-Petricek-krizik/Maturita-Op
