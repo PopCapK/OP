@@ -1,0 +1,39 @@
+IIS setup s DNS - https://www.kamatera.com/knowledgebase/configuring-iis-for-web-hosting-on-windows/
+
+IIS setup jinačí port - https://support.gpsgate.com/hc/en-us/articles/360017075999-How-to-change-the-default-IIS-port-for-your-server-website
+
+IIS setup na více websites - https://adrianjnkns.medium.com/hosting-multiple-websites-in-iis-e6640c713c37
+
+Chejn video – https://www.youtube.com/watch?v=a1iNrxC5dWE&ab_channel=Epicka_IT_Maturita
+
+Samba setup na Linux (mělo by stačit toto) – https://www.redhat.com/en/blog/getting-started-samba
+
+Samba setup s mountem - https://www.redhat.com/en/blog/samba-windows-linux
+(kontrola v Fedora průzkumníků souborů: samba://ip.adresa.serveru.tohoto/názevSouboru)
+
+Fedora commandy pro propuštění samby a portů skrze firewall – 
+sudo firewall-cmd --add-port=80/tcp --permanent
+sudo firewall-cmd --add-port=8081/tcp --permanent
+sudo firewall-cmd --add-service=samba --permanent
+sudo firewall-cmd --zone=public --change-interface=enp0s3 --permanent
+(enp0s3 nahradíte sítí, kterou bude používat)
+
+Nginx setup – https://www.atlantic.net/dedicated-server-hosting/how-to-install-nginx-web-server-on-fedora/
+(místo server_name dejte adresu serveru a místo listen dejte 0.0.0.0:80, možná bude potřeba zakomentovat listen na portu 80 v /etc/nginx/nginx.conf )
+
+Nginx setup alternativa - https://fedoraproject.org/wiki/Nginx
+
+GPO search - https://gpsearch.azurewebsites.net/
+
+Virtualbox extension - https://www.virtualbox.org/wiki/Downloads
+
+Virtualbox extension setup - https://phoenixnap.com/kb/install-virtualbox-extension-pack
+
+WS22 heslo – Ab123456
+
+WS22 link na stažení celé mašiny: https://drive.google.com/uc?export=download&id=1y-w_PWnGawgHUFUx8CtKUbvXuOwWvXkd
+
+FedoraServer heslo – admin
+
+FedoraServer link na stažení celé mašiny: https://drive.google.com/uc?export=download&id=1eFaPpe3iA0WRcZJEqtUCdzmUazdxKirX
+
